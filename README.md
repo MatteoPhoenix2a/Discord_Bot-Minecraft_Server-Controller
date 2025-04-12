@@ -2,7 +2,8 @@
 
 # English section
 
-- Presentation -
+- Presentation
+
 This project an open source Discord bot for controlling a self-hosted Minecraft server, course. It let you self-host you own iteration of this bot for making it interacting with your Minecraft server.
 In fact, I made this project so that when I am self-hosting a Minecraft server, my friends not forced to send me a message, learn what a linux CLI is, and use some weird custom vpn and homemade derogations to access my proxmox.
 
@@ -15,7 +16,8 @@ Moreover, a server running all the time mean, no auto updates, and can lead to s
 So I made accessible controlling the server for all my friends using Discord !
 
 
-- Disclaimer -
+- Disclaimer
+
 I AM NOT RESPONSIBLE for any damages, and bugs and every other issues that might damaging data or computer. USE IT AT YOUR OWN RISK (there should'nt be major security risks but we never know...).
 
 And more importantly I AM NOT a programmation maniac, I already know that my code could be better, easier, lighter and more reliable (I have ambiguous thought toward the Popen method). But if you have suggestion, feel free to telle me ! And for the devellopement prodigys, I'll be honored merge your code, knowing mine far from perfect.
@@ -23,7 +25,7 @@ And more importantly I AM NOT a programmation maniac, I already know that my cod
 Last thing, if you read the English section, you might already know that I am a frenchman. So, sorry for the potentials mistakes I'll make, or I have alredy made...
 
 
-- Step 1 : Making you a develloper ! -
+- Step 1 : Making you a develloper !
 
 
 
