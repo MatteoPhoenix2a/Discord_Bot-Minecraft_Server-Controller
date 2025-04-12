@@ -138,6 +138,12 @@ If you type 'ls', you'll see that a new file appeared, named 'config.json'.
 You can open the file by typing 'nano config.json'.
 Get prepared.
 
+| Variable name | Role                                                  | Variable type | Default                          | Exemple                                    |
+|---------------|-------------------------------------------------------|---------------|----------------------------------|--------------------------------------------|
+| token         | Let the discord api connect to your specific bot      | string        | You have to enter yours          | "thds7FDc:x..."                            |
+| log_level     | Express which events you want your logs to be made of | list          | Production (both INFO and ERROR) | ["EROOR", "DEBUG"]                         |
+| javaFileName  | The pth to your Minecraft server .jar file            | string        | You have to enter your own       | "/home/minecraft-server/mojang-1.21.5.jar" |
+
 
 
 
