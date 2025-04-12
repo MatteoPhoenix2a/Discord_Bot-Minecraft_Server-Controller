@@ -102,9 +102,45 @@ First, the code is writed in python, and your computer may need to install this 
 It is not a bad thing getting your system up to date. I am on Debian, I use the command 'sudo apt update && sudo apt upgrade -y'. 
 This command not always the same depending on your exploitation system, so feel free to ask your best friend, Google.
 Now, the python language not always installed natively. On Debian, I use 'sudo apt get-install python3'. 
-Again, the command may fiffer depending on your exploitation system...
+Again, the command may differ depending on your exploitation system...
 
-Now, even in python, you may ne
+Even in python, you'll need to install few more things.
+Some of you know how to use virtual environement, python venv. If you dont know about that, no panic we wont need it, that just a special way to install things when you are a developper (a true one), and want partitioned python installation for your projects.
+
+To make the project work, we need first to go into our directory.
+The command look like that : 'cd /enter_the_path_of_you_folder/enter_the_name_of_an_inside_folder/...'
+On my side, it looks like that : 'cd /home/minecraft-discordBot'.
+You might have to enter first the 'cd /' command before all of that, in the case you encounter an error.
+If it does not solve the issue, please check you enter PERFECTLY the folders name.
+To be sure you are on the right folder, you can now enter the 'ls' command, it will display you all the files the folder contains.
+You should see both the 'run.py' and the 'requirements.txt' files.
+That the last ones interesting us.
+
+So we are ready installing what we called 'requirements'.
+First, launch python with the command 'Python3'.
+A new type of shell appear, and then you can enter 'pip install requirements.txt'.
+Then exit python using 'exit()' command.
+If you had an issue, you can try (after exited the python3 shell), typing 'python3 -m pip install requirements.txt'.
+
+Ok, the hardest behind us, let's get into the final step.
+
+
+- Final step : Getting it configurated.
+
+The code ready to be launched. 
+Still in the folder, you can finally use the command 'python3 run.py'.
+
+And it wont works. That is perfectly normal. If you look carefully at the shell you'll see the message : 'Please fill the configuration file'.
+We will do it together.
+
+In fact, the code let yourselves with a new file.
+If you type 'ls', you'll see that a new file appeared, named 'config.json'.
+You can open the file by typing 'nano config.json'.
+Get prepared.
+
+
+
+
 
 
 
