@@ -58,33 +58,33 @@ First, make sure the server down and not running.
 Make yourselves a folder in which you'll partition the Discord bot and the Minecraft server itself. 
 For example, my tree file look like this :
 
-.
-└── home/
-    ├── minecraft-server/
-    │   ├── config/
-    │   │   ├── globals.yml
-    │   │   └── ...
-    │   ├── logs/
-    │   │   ├── 2025-03-24.log.gz
-    │   │   ├── 2025-03-15.log.gz
-    │   │   └── ...
-    │   └── your_minecraft_server_launcher_file.jar      
-    └── minecraft-discordBot/
-        ├── bin
-        ├── logs/
-        │   ├── 2025-04-12/
-        │   │   ├── 2025-04-12T10-48-08+0200.txt
-        │   │   └── 2025-04-12T11-29-38+0200.txt
-        │   ├── 2025-03-23.tar.gz
-        │   ├── 2025-03-24.tar.gz
-        │   └── ...
-        ├── src/
-        │   ├── commands.py
-        │   ├── logger.py
-        │   ├── bot.py
-        │   └── ...
-        ├── run.py
-        └── config.json
+
+└── home/  
+    ├── minecraft-server/  
+    │   ├── config/  
+    │   │   ├── globals.yml  
+    │   │   └── ...  
+    │   ├── logs/  
+    │   │   ├── 2025-03-24.log.gz  
+    │   │   ├── 2025-03-15.log.gz  
+    │   │   └── ...  
+    │   └── your_minecraft_server_launcher_file.jar        
+    └── minecraft-discordBot/  
+        ├── bin/  
+        ├── logs/  
+        │   ├── 2025-04-12/  
+        │   │   ├── 2025-04-12T10-48-08+0200.txt  
+        │   │   └── 2025-04-12T11-29-38+0200.txt  
+        │   ├── 2025-03-23.tar.gz  
+        │   ├── 2025-03-24.tar.gz  
+        │   └── ...  
+        ├── src/  
+        │   ├── commands.py  
+        │   ├── logger.py  
+        │   ├── bot.py  
+        │   └── ...  
+        ├── run.py  
+        └── config.json  
 
 We can see two distinct folder, very important for not getting confused. But you can name them whatever you want. If I chosed 'minecraft-server' and 'minecraft-DiscordBot', this is because you prefer having explicit and straight to the point folder names. Please do not have folders with a space inside. Even if it is accepted by your folder system, please understand that these spaces are not friends at all with programmation. That could lead to irritating errors latter.
 
@@ -138,13 +138,27 @@ If you type 'ls', you'll see that a new file appeared, named 'config.json'.
 You can open the file by typing 'nano config.json'.
 Get prepared.
 
-| Variable name | Role                                                  | Variable type | Default                          | Exemple                                    |
-|---------------|-------------------------------------------------------|---------------|----------------------------------|--------------------------------------------|
-| token         | Let the discord api connect to your specific bot      | string        | You have to enter yours          | "thds7FDc:x..."                            |
-| log_level     | Express which events you want your logs to be made of | list          | Production (both INFO and ERROR) | ["EROOR", "DEBUG"]                         |
-| javaFileName  | The pth to your Minecraft server .jar file            | string        | You have to enter your own       | "/home/minecraft-server/mojang-1.21.5.jar" |
+| Variable name        | Role                                                                                                       | Variable type | Default                                      | Exemple                   |
+|----------------------|------------------------------------------------------------------------------------------------------------|---------------|----------------------------------------------|---------------------------|
+| token                | Let the discord api connect to your specific bot                                                           | string        | You have to enter yours                      | "thds7FDc:x..."           |
+| log_level            | Express which events you want your logs to be made of                                                      | list          | Production (both INFO, ERROR and WARNING)    | ["ERROR", "DEBUG"]        |
+| javaFileName         | The name of your Minecraft server .jar file                                                                | string        | You have to enter your own                   | "mojang-1.21.5.jar"       |
+| pathToFile           | The path of your Minecraft server folder                                                                   | string        | Here again... Enter your own                 | "/home/minecraft-server/" |
+| serverIP             | The IP of your server, prefer the external IP                                                              | string        | And again...                                 | "198.153.254.87"          |
+| timezoneName         | Your timezone for the log files' date, include in tzdata library                                           | string        | Again, enter your own from : [tzdata list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)                                                                                                                                                                    | "Europe/Paris"            |
+| logCompression       | The system compressing the logs folder for more space                                                      | bool          | true, no quotes                              | true                      |
+| botStatus            | Enable or disable the bot status indication                                                                | bool          | true, no quotes                              | false                     |
+| baseUserRole         | The role allowing Discord users interacting with the bot                                                   | string        | "Minecraft"                                  | "Minecraft"               |
+| adminRole            | The same as the baseUserRole, it allow the stop command                                                    | string        | "Admin"                                      | "Admin"                   |
+| pingCommand          | A classic command to check the bot online, he responds pong                                                | string        | "ping"                                       | "ping"                    |
+| helpCommand          | The command listing all the... commands                                                                    | string        | "help"                                       | "help"                    |
+| ipServerCommand      | The command giving the ip you inserted earlier                                                             | string        | "ip"                                         | "ip"                      |
+| startServerCommand   | The command enabling the users starting the server                                                         | string        | "start server"                               | "start server"            |
+| stopServerCommand    | The admin command to stop the server                                                                       | string        | "stop server"                                | "stop server"             |
+| restartServerCommand | The command allowing users to restart the server in caso of issues                                         | string        | "restart server"                             | "restart server"          |
+| whitelistCommand     | The command enabling users to get themselves into the whitelist, please use the help command for the syntax| string        | "add me"                                     | "add me"                  |
 
-
+Normally, you should be good to go !
 
 
 
