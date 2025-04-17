@@ -35,7 +35,7 @@ And more importantly I AM NOT a programming maniac, I already know that my code 
 
 You have to understand that you need your own linux server on which you can interact (here we will be using command lines but you can be help by a graphical environment too !). This project can't help you making your free Aternos server compatible with Discord, that is not how it works. 
 
-Last thing, if you read the English section, you might already know that I am a frenchman. So, sorry for the potential mistakes I'll make, or I have alredy made...
+Last thing, if you read the English section, you might already know that I am a frenchman. So, sorry for the potential mistakes I'll make, or I have already made...
 
 
 ### Step 1 : Making you a developper!
