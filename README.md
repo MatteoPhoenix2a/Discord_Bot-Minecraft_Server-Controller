@@ -37,6 +37,8 @@ You have to understand that you need your own linux server on which you can inte
 
 Last thing, if you read the English section, you might already know that I am a frenchman. So, sorry for the potential mistakes I'll make, or I have already made...
 
+Just, I reserve the right to modify the license, and to exempt certain individuals from the obligations imposed by said license. That was the juridical moment...
+
 
 ### Step 1 : Making you a developper!
 
