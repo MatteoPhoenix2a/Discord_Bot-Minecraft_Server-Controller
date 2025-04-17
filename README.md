@@ -118,7 +118,7 @@ Now, the python language not always installed natively. On Debian, I use `sudo a
 Again, the command may differ depending on your exploitation system...
 
 Even in python, you'll need to install few more things.
-Some of you know how to use virtual environement, python venv. If you dont know about that, no panic we wont need it, that just a special way to install things when you are a developper (a true one), and want partitioned python installation for your projects.
+Some of you know how to use virtual environement, python venv. If you dont know about that, no panic we wont need it, that just a special way to install things when you are a developper (a true one), and want partitioned python installation for your projects. However, you might have to do one, if it is the case, the web full of guide if you type : venv python <your_distribution/os_name>
 
 To make the project work, we need first to go into our directory.
 The command look like that : `cd /enter_the_path_of_you_folder/enter_the_name_of_an_inside_folder/...`
