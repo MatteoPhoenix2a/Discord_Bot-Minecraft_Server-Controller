@@ -1,8 +1,8 @@
 # Discord Bot Minecraft Server Controller
 
-# English section
+## English section
 
-- Presentation
+### Presentation
 
 This project an open source Discord bot for controlling a self-hosted Minecraft server, course. It let you self-host you own iteration of this bot for making it interacting with your Minecraft server.
 In fact, I made this project so that when I am self-hosting a Minecraft server, my friends not forced to send me a message, learn what a linux CLI is, and use some weird custom vpn and homemade derogations to access my proxmox.
@@ -16,7 +16,7 @@ Moreover, a server running all the time mean, no auto updates, and can lead to s
 So I made accessible controlling the server for all my friends using Discord !
 
 
-- Disclaimer
+### Disclaimer
 
 I AM NOT RESPONSIBLE for any damages, and bugs and every other issues that might damaging data or computer. USE IT AT YOUR OWN RISK (there should'nt be major security risks but we never know...).
 
@@ -27,7 +27,7 @@ You have to understand that you need your own linux server on which you can inte
 Last thing, if you read the English section, you might already know that I am a frenchman. So, sorry for the potential mistakes I'll make, or I have alredy made...
 
 
-- Step 1 : Making you a developper !
+### Step 1 : Making you a developper !
 
 If you read this lines, you surely already have a Discord account. If this is not the case, go making you one ! (By yourselves course ;)
 You will have to make this lambda discord account a developper one. To make it, go on the app, from the landpage you go to Settings->Advanced->Developper mode
@@ -50,7 +50,7 @@ Hit it, confirm, enter your password, and now, be careful copying it (the token)
 Last but not least, confirm all you changes by hitting the button on the bottom right, an... that should be done !
 
 
-- Step 2 : Diving into the project.
+### Step 2 : Diving into the project.
 
 Now, the boring thing with Discord finished, let's get into the code.
 Go on your linux envirronement, in which your MC server running.
@@ -94,7 +94,7 @@ Now extract all the files from the downloaded folder to your personal folder.
 Please don't be tempted by executing the run.py and focus on the next step.
 
 
-- Step 3 : Make your environement ready !
+### Step 3 : Make your environement ready !
 
 Ok, I have the folder system, all the code, what should I do next?
 
@@ -125,7 +125,7 @@ If you had an issue, you can try (after exited the python3 shell), typing 'pytho
 Ok, the hardest behind us, let's get into the final step.
 
 
-- Final step : Getting it configurated.
+### Final step : Getting it configurated.
 
 The code ready to be launched. 
 Still in the folder, you can finally use the command 'python3 run.py'.
@@ -160,6 +160,11 @@ Get prepared.
 
 Normally, you should be good to go !
 
+### Getting deeper
+
+Be aware that the script not launch as the computer get turned on. There is a lot of guides online teaching you how making a command line persistent depending on your exploitation system.
+
+Have fun !
 
 
 
