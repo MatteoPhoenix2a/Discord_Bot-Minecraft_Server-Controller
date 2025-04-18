@@ -1,4 +1,4 @@
- # Importation des librairies
+ # Libraries importation
 from src.config import config
 from src.logger import print_log
 from src.shellController import shell
