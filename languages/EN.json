@@ -1,0 +1,51 @@
+{
+    "READ_ME" : "This is the official language file. If you want to modify something, do it in the custom.json file. The official file could be modified during updates and erasing your modifications.",
+
+    "helpCommandResponse" : [ 
+        {
+        "introduction" : "There are several available commands:",
+        "helpCommandDescription" : " — the one you just used; it shows information about available commands.",
+        "ipCommandDescription" : " — provides the IP address of the server, which is where you should start.",
+        "startServerCommandDescription" : " — starts the server; requires a specific role : ",
+        "restartServerCommandDescription" : " — restarts the server, useful in case of issues; also requires the role : ",
+        "stopServerCommandDescription" : " — stops the server; regular users don’t need it as the server shuts down automatically; only accessible to : ",
+        "whitelistCommandDescription" : " — adds you to the server whitelist (authorized player list); usage: !' + whitelistCommand + ' java/bedrock depending on your platform (java for most PC players, bedrock for consoles if supported) followed by your username.",
+        "whitelistCommandExample" : "'Example: !' + whitelistCommand + ' <INSERT_PLATFORM> <INSERT_NAMETAG>"
+        }
+        ],
+    
+    "classicOutputs" : [ 
+        {
+            "errors" : [ 
+            {
+                "error" : "An error happened, please try to start the server or contact the administrator",
+                "roleError" : "You have not the right to send this command",
+                "serverOnlineError" : "Server already online",
+                "serverOfflineError" : "server already offline",
+                "whitelistCommandError" : [
+                    {
+                        "whitelistError" : "An error occurred while adding the player",
+                        "playerAlreadyAdded" : "Player already in the whitelist",
+                        "whitelistOfflineError" : "The server offline, impossible adding a player, please try to start the server with the command : "                        
+                    }
+                ]
+            }
+            ],
+            
+            "successes" : [
+                {
+                "whitelistCommandSuccess" : "Player added to the whitelist",
+                "startServerCommandSuccess" : "The server now online",
+                "restartServerCommandSuccess" : "The server successfuly restart",
+                "stopServerCommandSuccess" : "The server now offline"
+                }
+                ],
+            
+            "miscellaneous" : [
+                {
+                "commandSent" : "Command sent, please wait..."
+                }
+                ]
+        }
+        ]
+}

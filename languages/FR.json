@@ -1,0 +1,51 @@
+{
+    "READ_ME" : "Ceci est un fichiuer de language officiel. Si vous voulez modifier quelque chose, faite le dans le fichier custom.json. Le fichier officiel pourrait etre modifié en cas de mise à jour et ainsi pourrait effacer vos modifications.",
+
+    "helpCommandResponse" : [ 
+        {
+        "introduction" : "Il existe plusieurs commandes qui sont adressables : ",
+        "helpCommandDescription" : " — celle que vous venez de taper, elle donne les informations quant aux commandes disponibles.",
+        "ipCommandDescription" : " — une commande qui donne l'adresse ip du serveur, c'est par là que vous devriez commencer.",
+        "startServerCommandDescription" : " — elle sert évidement à démarrer le serveur, elle nescessite un certain rôle : ",
+        "restartServerCommandDescription" : " — elle sert à redemarrer le serveur, elle est peut être utile en cas de problèmes, elle aussi nescessite un certain rôle : ",
+        "stopServerCommandDescription" : " — elle sert à arrêter le serveur, les utilisateurs lambdas n'ont pas à l'utiliser car le serveur se met en veille seul. Elle n'est accessible qu'aux : ",
+        "whitelistCommandDescription" : " — elle sert à vous ajouter dans la whitelist du serveur (la liste des utilisateurs autorisés), elle a pour syntaxe : !' + whitelistCommand + ' java/bedrock en fonction de votre support de jeu (java pour la majorité des ordinateurs, bedrock pour les joueurs console si le serveur les supporte) + le pseudo associé.",
+        "whitelistCommandExample" : "'Example: !' + whitelistCommand + ' <INSERT_PLATFORM> <INSERT_NAMETAG>"
+        }
+        ],
+    
+    "classicOutputs" : [ 
+        {
+            "errors" : [ 
+            {
+                "error" : "Une erreur est survenue, veuillez réessayer, ou contactez l'administrateur",
+                "roleError" : "Vous n'avez pas les droits pour effectuer cette commande",
+                "serverOnlineError" : "Le serveur est déjà actif",
+                "serverOfflineError" : "Le serveur est déjà éteint",
+                "whitelistCommandError" : [
+                    {
+                        "whitelistError" : "Erreur lors de l'ajout du joueur",
+                        "playerAlreadyAdded" : "Joueur déjà présent dans la whitelist",
+                        "whitelistOfflineError" : "Le serveur est éteint, impossible d'ajouter un joueur, essayez de l'allumer en utilisant la commande : "                        
+                    }
+                ]
+            }
+            ],
+            
+            "successes" : [
+                {
+                "whitelistCommandSuccess" : "Joueur ajouté à la whitelist",
+                "startServerCommandSuccess" : "Le serveur est désormais actif",
+                "restartServerCommandSuccess" : "Le redémarrage a été effectué avec succès",
+                "stopServerCommandSuccess" : "Le serveur est désormais éteint"
+                }
+                ],
+            
+            "miscellaneous" : [
+                {
+                "commandSent" : "Commande envoyée, veuillez patienter..."
+                }
+                ]
+        }
+        ]
+}
