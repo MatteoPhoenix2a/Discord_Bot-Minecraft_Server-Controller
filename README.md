@@ -105,6 +105,7 @@ We can see two distinct folder, very important for not getting confused. But you
 \
 Ok so we have a folder contain all the Minecraft server, and a brand new folder ready to serve ! If you read the english section, select the lastest release and download the 'Production-En' folder (I'll maybe add an all in one installation script in the future).\
 Now extract all the files from the downloaded folder to your personal folder.\
+To download the files, you can use the git clone command : `git clone https://github.com/MatteoPhoenix2a/Discord_Bot-Minecraft_Server-Controller.git`\
 \
 Please don't be tempted by executing the run.py and focus on the next step.
 
